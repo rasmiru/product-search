@@ -1,0 +1,180 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    /* 
+        - The product list is displayed as a flex container with a wrap property,
+          allowing the products to wrap to a new line when there's not enough space.
+        - justify-items: center horizontally aligns the products within each flex item.
+        - Margin left provides a left spacing for the product list.
+        - Margin bottom creates some vertical spacing between the product list and other elements.
+    */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* 
+        - The buttons container is displayed as a flex container with centered content.
+        - Margin bottom creates some vertical spacing between the buttons and other elements.
+    */
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* 
+        - Styling for the buttons.
+        - Font size, padding, and margin-right define the size and spacing of the buttons.
+        - Background color, text color, border, and border-radius provide the visual appearance.
+        - Cursor is set to pointer to indicate interactivity.
+        - Transition adds a smooth background color transition on hover.
+    */
+}
+
+button:hover {
+    background-color: #ddd;
+    /* 
+        - Styling for button hover state.
+        - Changes the background color when the button is hovered.
+    */
+}
+
+button.active {
+    background-color: #333;
+    color: #fff;
+    /* 
+        - Styling for the active button.
+        - Changes the background and text color when the button is active.
+    */
+}
+
+.search-box {
+    margin: 0 auto 20px;
+    width: 80%;
+    max-width: 600px;
+    min-width: 200px;
+    /* 
+        - Styling for the search box container.
+        - Margin: 0 auto centers the search box horizontally.
+        - Width, max-width, and min-width control the size of the search box.
+    */
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* 
+        - Styling for the search input field.
+        - Width: 100% makes the input field expand to fill the container.
+        - Padding defines the spacing inside the input field.
+        - Font size sets the size of the text.
+        - Border properties define the appearance of the input field border.
+        - Border-radius creates rounded corners.
+    */
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    /* 
+        - Styling for the search input field when it's in focus.
+        - Removes the default focus outline.
+        - Changes the border color and adds a box shadow to indicate focus.
+    */
+}
+
+.search-box input::placeholder {
+    color: #999;
+    /* 
+        - Styling for the placeholder text of the search input field.
+        - Sets the color of the placeholder text.
+    */
+}
+
+.search-box button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* 
+        - Styling for the search box button.
+        - Padding defines the size of the button.
+        - Font size sets the size of the text.
+        - Background color and text color define the visual appearance.
+        - Border properties are set to none to remove the button border.
+        - Border-radius creates rounded corners for the button.
+        - Cursor is set to pointer to indicate interactivity.
+        - Transition adds a smooth background color transition on hover.
+    */
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+    /* 
+        - Styling for the search box button when hovered.
+        - Changes the background color when the button is hovered.
+    */
+}
+
+.search-box button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    /* 
+        - Styling for the search box button when in focus.
+        - Removes the default focus outline.
+        - Adds a box shadow to indicate focus.
+    */
+}
+
+.sort-box {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    /* 
+        - Styling for the sort box container.
+        - Margin-bottom creates vertical spacing between the sort box and other elements.
+        - Margin-left provides left spacing for the sort box.
+    */
+}
+
+.sort-box label {
+    font-size: 16px;
+    margin-right: 10px;
+    /* 
+        - Styling for the sort box label.
+        - Font size sets the size of the label text.
+        - Margin-right creates right spacing between the label and other elements.
+    */
+}
+
+.sort-box select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* 
+        - Styling for the sort box select dropdown.
+        - Padding defines the size of the select dropdown.
+        - Font size sets the size of the text.
+        - Border properties define the appearance of the dropdown border.
+        - Border-radius creates rounded corners for the dropdown.
+    */
+}

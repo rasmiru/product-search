@@ -1,0 +1,35 @@
+/* Styles for the individual product */
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px 20px;
+}
+
+/* Styles for the product name */
+.product-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styles for the product category */
+.product-category {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+/* Styles for the product description */
+.product-description {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Styles for the product price */
+.product-price {
+    font-weight: bold;
+    color: #333;
+}
